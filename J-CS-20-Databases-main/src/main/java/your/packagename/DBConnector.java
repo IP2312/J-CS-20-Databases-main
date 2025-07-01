@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnector {
-    private String dbName = "db_name";
-    private String username = "db_name_user";
-    private String password = "pw_db_name_user";
+    private String dbName = "world";
+    private String username = "root@localhost";
+    private String password = "9Y9tpOo2bBQpO5";
     private String url = "jdbc:mysql://localhost:3306/" + dbName; //URL zum lokalen MySQL-Server und Datenbank db_name
     private static DBConnector connector = null;
     private Connection connection;

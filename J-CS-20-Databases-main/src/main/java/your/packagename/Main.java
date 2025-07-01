@@ -1,4 +1,4 @@
-package your.packagename;
+package main.java.your.packagename;
 
 public class Main {
     public static void main(String[] args) {

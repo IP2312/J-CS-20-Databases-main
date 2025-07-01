@@ -6,7 +6,7 @@ public class DBConnector{
 
     private String dbName = "clientmanagement";
     private String username = "root";
-    private String password = "";
+    private String password = "9Y9tpOo2bBQpO5";
     private String url = "jdbc:mysql://localhost:3306/" + dbName; //URL zum lokalen MySQL-Server und Datenbank db_name
     private static DBConnector connector = null;
     private Connection connection;
